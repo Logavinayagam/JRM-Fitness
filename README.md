@@ -101,13 +101,19 @@ Google Analytics (User Tracking)
 ### Installation
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd jrm
+   git clone https://github.com/Logavinayagam/JRM-Fitness.git
+   cd JRM-Fitness
    ```
 
 2. **Install dependencies:**
    ```bash
+   # Install core dependencies
    npm install
+
+   # Install project-specific libraries
+   npm install firebase
+   npm install react-router-dom
+   npm install react-helmet-async
    ```
 
 3. **Configure Environment Variables:**
